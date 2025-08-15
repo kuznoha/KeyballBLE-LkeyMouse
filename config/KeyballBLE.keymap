@@ -97,10 +97,10 @@
 
         MOUSE {
             bindings = <
-&trans       &trans  &trans    &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                               &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans    &trans  &trans
-&lt 5 SPACE  &trans  &mkp MB1  &mkp MB2         &mkp MB3           &mkp MB1      &kp LC(LS(W))  &mkp MB3         &mkp MB1           &mkp MB2  &trans  &lt 5 SPACE
-&trans       &trans  &trans    &mkp MB4         &mkp MB5           &mkp MB2      &trans         &mkp MB4         &mkp MB5           &trans    &trans  &trans
-&trans       &trans  &trans    &trans           &trans             &trans        &trans         &trans                                                &trans
+&trans       &trans  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LG(R)                               &kp LG(R)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans  &trans
+&lt 5 SPACE  &trans  &mkp MB1         &mkp MB2           &mkp MB3   &mkp MB1      &kp LC(LS(W))  &mkp MB3   &mkp MB1         &mkp MB2           &trans  &lt 5 SPACE
+&trans       &trans  &mkp MB4         &mkp MB5           &trans     &mkp MB2      &trans         &trans     &mkp MB4         &mkp MB5           &trans  &trans
+&trans       &trans  &trans           &trans             &trans     &trans        &trans         &trans                                                 &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
