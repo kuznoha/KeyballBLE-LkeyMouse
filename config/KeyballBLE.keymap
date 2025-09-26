@@ -57,10 +57,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                           &kp T                                                    &kp Y         &kp U  &kp I      &kp O       &kp P
-&kp A             &lt 4 S       &kp D         &kp F                           &kp G             &mkp MB1                    &kp AT     &kp H         &kp J  &kp K      &lt 4 L     &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                           &kp B             &mkp MB2                    &kp COLON  &kp N         &kp M  &kp COMMA  &kp PERIOD  &kp PLUS
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANG_HIRAGANA  &lt 2 LANGUAGE_5  &lt_to_layer_0 3 SPACE      &kp ENTER  &lt 1 DELETE                                &kp DEL
+&kp Q             &kp W             &kp E         &kp R                           &kp T                                                    &kp Y         &kp U  &kp I      &kp O       &kp P
+&kp A             &lt 4 S           &kp D         &kp F                           &kp G             &mkp MB1                    &kp AT     &kp H         &kp J  &kp K      &lt 4 L     &kp MINUS
+&mt LEFT_SHIFT Z  &kp X             &kp C         &kp V                           &kp B             &mkp MB2                    &kp COLON  &kp N         &kp M  &kp COMMA  &kp PERIOD  &kp PLUS
+&kp LEFT_SHIFT    &kp LEFT_CONTROL  &kp LEFT_ALT  &lt_to_layer_0 1 LANG_HIRAGANA  &lt 2 LANGUAGE_5  &lt_to_layer_0 3 SPACE      &kp ENTER  &lt 1 DELETE                                &kp DEL
             >;
 
             sensor-bindings = <&rotate>;
@@ -68,10 +68,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&trans  &trans        &trans        &trans        &trans        &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&trans  &trans        &trans        &trans        &trans        &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans  &trans        &trans        &trans        &trans        &trans      &trans   &trans                          &kp F12
             >;
         };
 
